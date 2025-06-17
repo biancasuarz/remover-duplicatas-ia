@@ -13,9 +13,30 @@ Recebe uma lista como entrada e retorna uma nova lista contendo apenas os elemen
 ### Retorno
 - `list`: Lista com elementos únicos na mesma ordem de entrada.
 
-### Exemplo de Uso
-```python
-entrada = [1, 2, 2, 3, 4, 4, 5]
-saida = remover_duplicatas(entrada)
-print(saida)  # Saída: [1, 2, 3, 4, 5]
 
+### Informações Adicionais
+Qual foi a lógica usada?
+
+- Criamos um conjunto vazio chamado vistos para armazenar os elementos já encontrados.
+- Criamos uma lista vazia chamada resultado, onde vamos armazenar os elementos únicos.
+- Iteramos sobre cada item da lista original.
+- A cada item, verificamos se ele já está presente no conjunto vistos.
+- Se não estiver, adicionamos esse item ao conjunto vistos e também à lista resultado.
+- Se já estiver, pulamos para o próximo item.
+- Retornamos a lista resultado, que contém apenas os primeiros elementos únicos, na mesma ordem em que apareceram.
+
+### Como a IA nos ajudou (ou não) durante o processo?
+
+- Sugeriu a estrutura inicial da função, o que agilizou o desenvolvimento.
+- Ofereceu alternativas, como o uso de set para eliminar duplicatas, e uma solução com list comprehensions.
+- Auxiliou na validação lógica com exemplos de casos de teste.
+
+### O que alteramos das sugestões da IA e por quê?
+
+Após discutirmos em equipe, decidimos não usar algumas das sugestões da IA:
+
+- set: Embora eficiente, não preserva a ordem dos elementos, o que era um requisito.
+
+- List comprehensions: Apesar de concisas, poderiam dificultar a compreensão do código por membros da equipe menos experientes.
+
+Optamos por uma solução simples e legível, priorizando clareza e facilidade de manutenção. O trabalho em equipe e o uso da IA ajudaram a encontrar um equilíbrio entre eficiência e legibilidade.
