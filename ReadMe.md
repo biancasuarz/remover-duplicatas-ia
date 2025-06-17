@@ -14,7 +14,7 @@ Recebe uma lista como entrada e retorna uma nova lista contendo apenas os elemen
 - `list`: Lista com elementos únicos na mesma ordem de entrada.
 
 
-### Informações Adicionais
+## Informações para Instrutores
 Qual foi a lógica usada?
 
 - Criamos um conjunto vazio chamado vistos para armazenar os elementos já encontrados.
