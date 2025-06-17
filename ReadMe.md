@@ -18,5 +18,4 @@ Recebe uma lista como entrada e retorna uma nova lista contendo apenas os elemen
 entrada = [1, 2, 2, 3, 4, 4, 5]
 saida = remover_duplicatas(entrada)
 print(saida)  # Saída: [1, 2, 3, 4, 5]
-# remover-duplicatas-ia
-# remover-duplicatas-ia
+
