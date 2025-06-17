@@ -13,4 +13,4 @@ def remove_duplicados_ordem(arr):
     return unicos
 
 resultado_ordem = remove_duplicados_ordem(lista)
-print(resultado_ordem)  # Saída: [1, 2, 3, 4, 5]
+print(resultado_ordem)  
