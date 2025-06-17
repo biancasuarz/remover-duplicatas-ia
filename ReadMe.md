@@ -21,9 +21,8 @@ Qual foi a lógica usada?
 - Criamos uma lista vazia chamada resultado, onde vamos armazenar os elementos únicos.
 - Iteramos sobre cada item da lista original.
 - A cada item, verificamos se ele já está presente no conjunto vistos.
-- Se não estiver, adicionamos esse item ao conjunto vistos e também à lista resultado.
-- Se já estiver, pulamos para o próximo item.
-- Retornamos a lista resultado, que contém apenas os primeiros elementos únicos, na mesma ordem em que apareceram.
+- Se não estiver, adicionamos esse item ao conjunto vistos e também à lista resultado. Se já estiver, pulamos para o próximo item.
+Retornamos a lista resultado, que contém apenas os primeiros elementos únicos, na mesma ordem em que apareceram.
 
 ### Como a IA nos ajudou (ou não) durante o processo?
 
