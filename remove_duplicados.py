@@ -1,7 +1,7 @@
 def remove_duplicados(arr):
     return list(set(arr))
 
-lista = [1, 2, 2, 3, 4, 4, 5,'a', 'b', 'a']
+lista = [1, 2, 2, 3, 4, 4, 5,'a', 'b', 'a', '', 'c', 'b', '', 'd']
 resultado = remove_duplicados(lista)
 print(resultado)
 
